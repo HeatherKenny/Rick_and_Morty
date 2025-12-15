@@ -14,8 +14,12 @@ export class AuthService {
   constructor(private router: Router) {}
 
   login(username: string, password: string): boolean {
-    // Simulação de login - aceita qualquer usuário/senha
-    if (username && password) {
+    // Credenciais fixas para demonstração
+    const VALID_USERNAME = 'adm';
+    const VALID_PASSWORD = '123';
+    
+    // Validação de credenciais
+    if (username === VALID_USERNAME && password === VALID_PASSWORD) {
       const fakeToken = this.generateFakeJWT(username);
       const user = {
         username: username,
@@ -31,6 +35,7 @@ export class AuthService {
       
       return true;
     }
+    // Credenciais inválidas
     return false;
   }
 

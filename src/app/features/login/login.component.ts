@@ -60,7 +60,7 @@ import { AuthService } from '../../core/services/auth.service';
         
         <div class="login-footer">
           <p class="text-muted small">
-            Dica: Use qualquer usuário e senha para entrar
+            <strong>Credenciais:</strong> Usuário: <code>adm</code> | Senha: <code>123</code>
           </p>
         </div>
       </div>
