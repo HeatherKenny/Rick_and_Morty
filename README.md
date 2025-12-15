@@ -59,7 +59,7 @@ Acesse: http://localhost:4200
 
 # Como Usar
 
-1. Login: Digite qualquer usuário e senha
+1. Login: Digite credenciais corretamente fixado na página de login (alert de "Usuário ou senha inválidos")
 2. Navegue pela sidebar
 3. Use a busca para filtrar
 4. Role para carregar mais itens
