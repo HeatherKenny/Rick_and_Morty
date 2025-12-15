@@ -130,7 +130,7 @@ import { AuthService } from '../../core/services/auth.service';
     .profile-image-container {
       height: 100%;
       min-height: 400px;
-      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      background: linear-gradient(135deg, #97ce4c 0%, #00b5cc 100%);
       display: flex;
       align-items: center;
       justify-content: center;
