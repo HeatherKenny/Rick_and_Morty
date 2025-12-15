@@ -25,3 +25,4 @@ export const loginGuard: CanActivateFn = (route, state) => {
   router.navigate(['/characters']);
   return false;
 };
+
